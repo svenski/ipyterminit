@@ -10,6 +10,7 @@ setup(name='ipyterminit',
       author='Sergiusz Bleja',
       author_email='sergiusz@bleja.org',
       license='MIT',
+      install_requires=['matplotlib', 'IPython'],
       long_description=long_description,
       packages=['ipyterminit'],
       keywords=['ipython','ssh', 'vim'])
